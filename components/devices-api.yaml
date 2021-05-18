@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devices-api
+  description: Use this API to get device state for myQ residential device types.  Used as facade layer for device state stored in Couchbase.
+  tags:
+    - myq
+    - dotnetcore
+    - aks
+    - couchbase
+spec:
+  type: service
+  lifecycle: production
+  owner: soapbox
+  system: devices
