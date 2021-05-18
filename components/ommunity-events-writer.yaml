@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: community-events-writer
+  description: Writes history events for a myQ Community user
+  tags:
+    - community
+    - myqbusiness
+    - dotnetcore
+    - aks
+    - tls
+spec:
+  type: service
+  lifecycle: production
+  owner: guardians
+  system: myqb-history
